@@ -1,0 +1,23 @@
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Env / secrets
+.env
+.env.*
+**/application-local.yml
+**/application-dev.yml
+**/application-prod.yml
+**/application-test.yml
+
+# IDEs
+.idea
+.vscode
+*.iml
+
+# Build artifacts (all services)
+**/target/
+**/build/
